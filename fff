@@ -1,0 +1,3 @@
+cf push pal-tracker -p "./build/libs/pal-tracker.jar"
+ pal-tracker.apps.evans.pal.pivotal.io
+./gradlew cloudNativeDeveloperSimpleApp -PserverUrl=https://pal-tracker.apps.evans.pal.pivotal.io
