@@ -1,3 +1,12 @@
-cf push pal-tracker -p "./build/libs/pal-tracker.jar"
- pal-tracker.apps.evans.pal.pivotal.io
-./gradlew cloudNativeDeveloperSimpleApp -PserverUrl=https://pal-tracker.apps.evans.pal.pivotal.io
+
+
+    CF_API_URL
+
+    CF_ORG
+
+    CF_SPACE
+
+    CF_USERNAME
+
+    CF_PASSWORD
+pal-tracker-happy-dingo-ff.apps.evans.pal.pivotal.io
