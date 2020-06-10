@@ -13,7 +13,7 @@ pal-tracker-happy-dingo-ff.apps.evans.pal.pivotal.io
 
 
 cd ~/workspace/assignment-submission
-./gradlew cloudNativeDeveloperDatabaseMigrations -PserverUrl=https://pal-tracker-pnguye35.apps.evans.pal.pivotal.io
+./gradlew cloudNativeDeveloperDatabaseAccess -PserverUrl=https://pal-tracker-pnguye35.apps.evans.pal.pivotal.io
 
 MariaDB [tracker_test]> show tables;
 +------------------------+
