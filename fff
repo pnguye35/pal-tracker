@@ -10,3 +10,19 @@
 
     CF_PASSWORD
 pal-tracker-happy-dingo-ff.apps.evans.pal.pivotal.io
+
+
+cd ~/workspace/assignment-submission
+./gradlew cloudNativeDeveloperDatabaseMigrations -PserverUrl=https://pal-tracker-pnguye35.apps.evans.pal.pivotal.io
+
+MariaDB [tracker_test]> show tables;
++------------------------+
+| Tables_in_tracker_test |
++------------------------+
+| flyway_schema_history  |
+| time_entries           |
++------------------------+
+ested exception is java.sql.SQLSyntaxErrorException: Table 'tracker_test.time_entry' doesn't exist
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:235)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+
